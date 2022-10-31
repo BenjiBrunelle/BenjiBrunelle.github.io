@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.a1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.a2 {
+    
+}
+
+.footertekst, .bildet, .link, .infotekst, .infoboks, .infobokser .main {
+    margin: 2px;
+    padding: 10px;
+}
+
+.infoboks {
+    background-color: lightgray;
+    color: #000;
+}
+
+.infobokser {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+
+.infotekst {
+    
+}
+
+.link {
+    margin-left: 573px;
+    width: 100px;
+    color: #000;
+    background-color: rgb(0, 110, 255);
+}
+
+.bildet {
+    
+}
+
+img {
+    width: 250px;
+}
+
+.footertekst {
+
+}
