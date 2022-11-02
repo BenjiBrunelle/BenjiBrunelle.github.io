@@ -1,5 +1,4 @@
 body {
-    text-align: center;
     background-color: black;
     color: white;
 }
@@ -13,6 +12,7 @@ body {
 }
 
 .footertekst, .bildet, .link, .infotekst, .infoboks, .infobokser .main {
+    text-align: center;
     margin: 2px;
     padding: 10px;
 }
