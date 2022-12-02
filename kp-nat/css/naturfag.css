@@ -1,1 +1,49 @@
+body {
+    background-color: darkgrey;
+}
 
+div, header, footer{
+    padding: 40px;
+    border-radius: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+nav {
+    border-radius: 10px;
+}
+
+.innholdsboks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: gray;
+}
+
+.boks1 {
+
+}
+
+.boks2 {
+
+}
+
+.nav-box li {
+    display: inline;
+    list-style-type: none;
+}
+
+.health, .bowl {
+    width: 200px;
+    max-width: 100%;
+}
+
+.logo{
+    width: 150px;
+
+}
