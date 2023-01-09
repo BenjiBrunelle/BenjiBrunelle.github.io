@@ -12,7 +12,7 @@ function fjernVokal(string) {
     }
     return nyString;
   }
-  let string = ("Hello world");
+  let string = ("Halo mitt navn er Benjamin");
 
   let nyString = fjernVokal(string);
 
