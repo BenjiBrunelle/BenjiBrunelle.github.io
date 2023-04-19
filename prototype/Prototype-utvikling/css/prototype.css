@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color:rgb(62, 51, 51);
+    padding: 24px;
+}
+
+nav {
+    color: rgb(132, 80, 80);
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+.produkt {
+    background-color: rgb(95, 95, 95);
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    padding: 15px;
+    text-align: center;
+}
+
+.pic {
+    width: 200px;
+}
+
+.murstein-txt {
+    width: 150px;
+}
+
+label {
+    padding-left: 75px;
+}
+
+
