@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+    <link rel="stylesheet" href="css/prototype.css">
+</head>
+<body>
+    <header>
+        <h1>Murstein</h1>
+        <nav>
 
+        </nav>
+    </header>
+    <main>
+        <div class="produkt">
+            <h2>Murstein</h2>
+            <img src="img/bricks.jpg" alt="bilde" class="pic">
+            <p>Murstein</p>
+            <span id="price">100,-kr</span>
+            <button class="next" onclick="document.location='betaling.html'">Neste</button>
+            <button onclick="toggleOptions()">Anntall</button>
+            <div id="options" style="display:none">
+            <label><input onclick="buton1()" type="radio" name="option" value="option1">1</label><br>
+            <label><input onclick="buton2()" type="radio" name="option" value="option2">2</label><br>
+            <label><input onclick="buton3()" type="radio" name="option" value="option3">3</label><br>
+            </div>
+            <div class="murstein-txt">    
+                <p>Her er det bare noen helt vanlige mursteiner. 
+                Ikke noe spessielt med dem. Bare noen helt vanlig mursteiner</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; 2023 Mursteiner - super kult. Helt vanlig mursteiner
+        </p>
+        <p>
+            Ikke kontakt oss
+        </p>
+        <a href="">E-post</a>
+        <a href="">Adresse</a>
+        <a href="">Tlf</a>
+    </footer>
+</body>
+    <script src="javascript/prototype.js"> </script>
+</html>
